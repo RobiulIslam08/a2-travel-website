@@ -7,9 +7,11 @@
     font-family: 'Inter', sans-serif;
     font-family: 'Mulish', sans-serif;
 }
+
 .find-btn::placeholder {
     color: white;
 }
+
 header {
     margin-top: 50px;
 }
@@ -521,6 +523,118 @@ header {
     line-height: 26px;
 }
 
+/* newsletter-section section start here */
+.newsletter-section {
+    display: flex;
+    max-width: 85%;
+    margin: 0 auto;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.newsletter-form {
+    border: 1px solid #FF5400;
+    width: 50%;
+    padding: 20px 20px;
+    margin-left: 50px;
+    border-radius: 20px;
+}
+
+/* .newsletter-img {
+    margin-right: 80px;
+} */
+
+.newsletter-form h2 {
+    color: #131318;
+    font-family: Mulish;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.newsletter-form p {
+    color: #5A5A5D;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    margin-bottom: 60px;
+}
+
+.newsletter-form input {
+    background-color: rgba(19, 19, 24, 0.05);
+    display: block;
+    width: 100%;
+    padding: 20px;
+    border-radius: 10px;
+    border: none;
+}
+
+.subscribe-btn {
+    width: 100%;
+    padding: 15px;
+    margin-top: 20px;
+    border: none;
+    background-color: #FF5400;
+    border-radius: 8px;
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.newsletter-img {
+    width: 50%;
+    position: relative;
+}
+
+.newsletter-img img {
+    width: 100%;
+}
+
+.travel-discount {
+    background-color: #FF5400;
+    max-width: 300px;
+    position: absolute;
+    left: 50%;
+    top: 60%;
+    transform: rotate(-20deg);
+    border-radius: 20px;
+    padding: 12px;
+    
+    
+
+}
+
+.travel-discount h4 {
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.travel-discount h1 {
+    color: #FFF;
+    font-family: Mulish;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    text-align: center;
+}
+
 /* footer section start here */
 footer {
     width: 85%;
@@ -706,6 +820,7 @@ footer h1 {
     .guarantee-card {
         width: 85%;
     }
+
     .footer-pera {
         width: 300px;
     }
