@@ -264,6 +264,11 @@ header {
     font-style: normal;
     font-weight: 800;
     line-height: normal;
+    transition: .3s;
+}
+.read-more-btn:hover {
+    background-color: #ee5b12;
+    transform: scale(1.04);
 }
 
 
@@ -440,6 +445,10 @@ header {
     background-color: rgba(190, 223, 223, 0.379);
     width: 50%;
     padding: 20px 20px;
+    transition: .4s;
+}
+.hotel-card:hover {
+    background-color: rgba(168, 182, 182, 0.493);
 }
 
 .service-card {
@@ -447,6 +456,10 @@ header {
     background-color: rgba(190, 223, 223, 0.379);
     width: 50%;
     padding: 20px 20px;
+    transition: .4s;
+}
+.service-card:hover {
+    background-color: rgba(168, 182, 182, 0.493);
 }
 
 .hotel-card h2 {
@@ -500,6 +513,10 @@ header {
     margin: 0 auto;
     margin-top: 24px;
     padding: 20px;
+    transition: .4s;
+}
+.guarantee-card:hover {
+    background-color: rgba(168, 182, 182, 0.493);
 }
 
 .guarantee-card h2 {
@@ -592,6 +609,12 @@ header {
     font-style: normal;
     font-weight: 800;
     line-height: normal;
+    transition: .3s;
+    
+}
+.subscribe-btn:hover{
+    background-color: #ee5b12;
+    transform: scale(1.04);
 }
 
 .newsletter-img {
@@ -683,7 +706,11 @@ footer h1 {
 .icons i {
     font-size: 30px;
     margin-left: 20px;
+    transition: .3s;
 
+}
+.icons i:hover {
+    color: rgb(179, 78, 140);
 }
 
 .copy-right {
@@ -734,13 +761,17 @@ footer h1 {
     .primary-btn {
         width: 100%;
         padding: 12px 100px;
+        
     }
 
     .find-btn {
         width: 100%;
         padding: 12px 100px;
+        
+        
 
     }
+    
 
     .tours-description-section {
         flex-direction: column;
