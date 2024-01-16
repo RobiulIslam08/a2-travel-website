@@ -1,0 +1,723 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Mulish:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Mulish', sans-serif;
+}
+
+.find-btn::placeholder {
+    color: white;
+}
+
+header {
+    margin-top: 50px;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    max-width: 85%;
+    margin: 0 auto;
+    align-items: center;
+}
+
+.nav-title {
+    display: flex;
+    align-items: center;
+
+}
+
+.nav-title h1 {
+    margin-left: 16px;
+    color: #131318;
+    font-family: Mulish;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.nav-item ul {
+    display: flex;
+    gap: 20px;
+}
+
+.nav-item li {
+    list-style: none;
+
+}
+
+.nav-item li a {
+    text-decoration: none;
+
+    gap: 13px;
+    padding: 8px 16px;
+    color: #424247;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    transition: .4s;
+}
+
+.nav-item li a:hover {
+    color: #424247;
+    border-radius: 12px;
+
+
+    background-color: rgb(230, 236, 241);
+}
+
+.bar {
+    /* display: none; */
+    font-size: 35px;
+    visibility: hidden;
+}
+
+/* banner section start here */
+
+header {
+    margin-bottom: 50px;
+}
+
+.banner {
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.2)), url("./images/group-13.png");
+    border-radius: 10px;
+    /* height: 500px; */
+    padding: 10px;
+    background-repeat: no-repeat;
+
+    margin: 0 auto;
+    width: 85%;
+    margin-bottom: 100px;
+    background-size: cover;
+}
+
+.banner-text h1 {
+    color: #FFF;
+    text-align: center;
+    padding: 60px;
+    font-family: Mulish;
+    font-size: 4rem;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.banner-text p {
+    width: 60%;
+    margin: 0 auto;
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    margin-bottom: 60px;
+}
+
+.banner-btn {
+    padding: 20px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgba(103, 104, 104, 0.493);
+    width: 80%;
+    margin: 0 auto;
+    border-radius: 20px;
+    margin-bottom: 35px;
+}
+
+.where-btn {
+    background-color: rgb(255, 255, 255);
+    padding: 10px 5px;
+    /* outline: none; */
+    border: none;
+    border-radius: 10px;
+    text-align: left;
+    color: rgba(19, 19, 24, 0.50);
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.primary-btn {
+    padding: 10px 5px;
+    /* outline: none; */
+    border: none;
+    border-radius: 10px;
+    color: rgba(19, 19, 24, 0.50);
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    position: relative;
+
+}
+
+.btn-div {
+    position: relative;
+}
+
+.banner-btn .fa-caret-down {
+    position: absolute;
+    left: 80%;
+    top: 30%;
+    color: black;
+
+
+}
+
+.find-btn {
+    padding: 10px 5px;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    font-family: Mulish;
+    color: rgb(74, 9, 239);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: center;
+    background-color: #FF5400;
+
+}
+
+.banner-btn .fa-magnifying-glass {
+    position: absolute;
+    top: 30%;
+    left: 20%;
+    color: white;
+}
+
+
+/* tours-description-section start here */
+.tours-description-section {
+    width: 85%;
+    margin: 0 auto;
+    display: flex;
+
+    justify-content: space-between;
+    align-items: center;
+}
+
+.tours-desc {
+    width: 50%;
+    padding: 20px;
+
+}
+
+.tours-desc h1 {
+    color: #131318;
+    margin-bottom: 20px;
+    text-align: left;
+    font-family: Mulish;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.tours-desc p, ul {
+    color: rgba(19, 19, 24, 0.70);
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    margin-bottom: 20px;
+}
+
+.tours-desc ul {
+    margin-left: 20px;
+
+}
+
+.tours-img {
+    width: 50%;
+}
+
+.tours-img img {
+    width: 100%;
+}
+
+.read-more-btn {
+    border: none;
+    outline: none;
+    background-color: #FF5400;
+    padding: 10px 18px;
+    border-radius: 8px;
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+
+/* destination section start here */
+.tours-destination-section {
+    width: 85%;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+
+.destination-text {
+    text-align: center;
+    max-width: 700px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+
+.destination-text h1 {
+    color: #131318;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    margin-bottom: 30px;
+}
+
+.destination-text p {
+    color: rgba(19, 19, 24, 0.70);
+    text-align: center;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.grid-img-1 {
+    background-image: url("./images/rectangle-5.png");
+    grid-column: 1/span 6;
+    height: 300px;
+
+}
+
+.grid-img-2 {
+    background-image: url("./images/rectangle-8.png");
+    grid-column: 7/span 6;
+    height: 300px;
+
+}
+
+.grid-img-3 {
+    background-image: url("./images/rectangle-6.png");
+    grid-column: 1/span 4;
+    height: 300px;
+
+}
+
+.grid-img-4 {
+    background-image: url("./images/rectangle-7.png");
+    grid-column: 5/span 5;
+    height: 300px;
+
+}
+
+.grid-img-5 {
+    background-image: url("./images/rectangle-9.png");
+    grid-column: 10/span 3;
+    height: 300px;
+}
+
+.grid-img-6 {
+    background-image: url("./images/rectangle-11.png");
+    grid-column: 1/span 6;
+    height: 300px;
+}
+
+.grid-img-7 {
+    background-image: url("./images/rectangle-10.png");
+    grid-column: 7/span 6;
+    height: 300px;
+}
+
+
+
+
+.grid-img {
+    border-radius: 10px;
+    background-repeat: no-repeat;
+    /* background-size: cover; */
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* height: 200px; */
+    color: #FFF;
+    /* padding: 200px; */
+    text-align: center;
+    font-family: Mulish;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    background-size: auto;
+
+}
+
+.grid-img-container {
+
+    border-color: #FF5400;
+    width: 85%;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    margin: 0 auto;
+    margin-bottom: 100px;
+    gap: 20px;
+
+}
+
+/* chose section start here */
+.chose-us-section {
+    max-width: 85%;
+    margin: 0 auto;
+    margin-bottom: 100px;
+}
+
+.choose-section-text {
+    max-width: 700px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    text-align: center;
+
+}
+
+.choose-section-text h1 {
+    color: #131318;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    margin-bottom: 30px;
+
+}
+
+.choose-section-text p {
+    color: rgba(19, 19, 24, 0.70);
+    text-align: center;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+/* card section start here */
+.chose-2-card {
+    width: 85%;
+    margin: 0 auto;
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+
+    gap: 30px;
+}
+
+.hotel-card {
+    border-radius: 8px;
+
+    background-color: rgba(190, 223, 223, 0.379);
+    width: 50%;
+    padding: 20px 20px;
+}
+
+.service-card {
+    border-radius: 8px;
+    background-color: rgba(190, 223, 223, 0.379);
+    width: 50%;
+    padding: 20px 20px;
+}
+
+.hotel-card h2 {
+    color: #131318;
+    text-align: left;
+    font-family: Mulish;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    margin-bottom: 15px;
+    margin-top: 15px;
+
+}
+
+.hotel-card p {
+    color: #5A5A5D;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+
+.service-card h2 {
+    margin-bottom: 15px;
+    margin-top: 15px;
+    color: #131318;
+    text-align: left;
+    font-family: Mulish;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.service-card p {
+    color: #5A5A5D;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.guarantee-card {
+    background-color: rgba(190, 223, 223, 0.379);
+    border-radius: 8px;
+    width: 43%;
+    margin: 0 auto;
+    margin-top: 24px;
+    padding: 20px;
+}
+
+.guarantee-card h2 {
+    margin-bottom: 15px;
+    margin-top: 15px;
+    color: #131318;
+    text-align: left;
+    font-family: Mulish;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.guarantee-card p {
+    color: #5A5A5D;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+/* footer section start here */
+footer {
+    width: 85%;
+    margin: 0 auto;
+    background-color: #ffffff;
+    text-align: center;
+}
+
+footer h1 {
+    color: #131318;
+    font-family: Mulish;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.footer-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding-top: 80px;
+    padding-bottom: 15px;
+}
+
+.footer-pera {
+    width: 600px;
+    color: #5A5A5D;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    margin: 0 auto;
+    padding-bottom: 28px;
+}
+
+.icons {
+    margin-bottom: 100px;
+}
+
+.icons i {
+    font-size: 30px;
+    margin-left: 20px;
+
+}
+
+.copy-right {
+    padding-bottom: 50px;
+}
+
+/* responsive for mobile device  */
+@media screen and (max-width: 600px) {
+    .nav-item ul {
+        display: none;
+
+    }
+
+    .bar {
+        margin-left: 150px;
+        visibility: visible;
+    }
+
+    .banner-text h1 {
+        padding: 0;
+        font-size: 2.5rem;
+        padding-bottom: 30px;
+    }
+
+    .banner-text p {
+        width: 100%;
+    }
+
+    .banner-btn {
+        flex-direction: column;
+        padding: 0;
+        width: 100%;
+
+
+
+    }
+
+    .btn-div {
+        margin-bottom: 20px;
+        margin-top: 20px;
+    }
+
+    .where-btn {
+        width: 100%;
+        padding: 12px 100px;
+    }
+
+    .primary-btn {
+        width: 100%;
+        padding: 12px 100px;
+    }
+
+    .find-btn {
+        width: 100%;
+        padding: 12px 100px;
+
+    }
+
+    .tours-description-section {
+        flex-direction: column;
+    }
+
+    .tours-desc {
+        width: 100%;
+    }
+
+    .tours-img {
+        width: 100%;
+    }
+
+    .banner-btn .fa-magnifying-glass {
+
+
+        left: 32%;
+    }
+
+    .grid-img-container {
+        grid-template-columns: 1fr;
+    }
+
+    .grid-img-1 {
+
+        grid-column: 1/span 12;
+
+    }
+
+    .grid-img-2 {
+
+        grid-column: 1/span 12;
+
+    }
+
+    .grid-img-3 {
+
+        grid-column: 1/span 12;
+
+
+    }
+
+    .grid-img-4 {
+
+        grid-column: 1/span 12;
+
+    }
+
+    .grid-img-5 {
+
+        grid-column: 1/span 12;
+
+
+    }
+
+    .grid-img-6 {
+
+        grid-column: 1/span 12;
+    }
+
+    .grid-img-7 {
+
+        grid-column: 1/span 12;
+    }
+
+    .chose-2-card {
+        flex-direction: column;
+
+    }
+
+    .service-card {
+        width: 100%;
+    }
+
+    .hotel-card {
+        width: 100%;
+    }
+
+    .guarantee-card {
+        width: 85%;
+    }
+    .footer-pera {
+        width: 300px;
+    }
+
+
+
+
+
+
+
+
+
+}
