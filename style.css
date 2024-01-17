@@ -749,7 +749,7 @@ footer h1 {
     line-height: 26px;
     margin-bottom: 40px;
 }
-.popular-btn {
+.join-now {
     border: none;
     outline: none;
     background-color: #FF5400;
@@ -770,11 +770,15 @@ footer h1 {
 }
 .popular-img {
     width: 50%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
 }
 .popular-img img {
     width: 100%;
 
 }
+
 
 /* responsive for mobile device  */
 @media screen and (max-width: 600px) {
@@ -937,7 +941,10 @@ footer h1 {
     .newsletter-form {
         margin-left: 0px;
     }
-
+    .popular-img {
+        grid-template-columns: 1fr;
+    }
+    
 
 
 
