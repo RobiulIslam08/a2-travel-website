@@ -190,7 +190,11 @@ header {
     line-height: normal;
     text-align: center;
     background-color: #FF5400;
+    transition: .4s;
 
+}
+.find-btn:hover {
+    background-color: #ee5b12;       
 }
 
 .banner-btn .fa-magnifying-glass {
@@ -774,8 +778,10 @@ footer h1 {
     grid-template-columns: repeat(2, 1fr);
     gap: 10px;
 }
+
 .popular-img img {
     width: 100%;
+    border-radius: 12px;
 
 }
 
@@ -831,9 +837,8 @@ footer h1 {
         width: 100%;
         padding: 12px 100px;
         
-        
-
     }
+   
     
 
     .tours-description-section {
@@ -886,8 +891,8 @@ footer h1 {
     .grid-img-5 {
 
         grid-column: 1/span 12;
-
-
+        
+    
     }
 
     .grid-img-6 {
