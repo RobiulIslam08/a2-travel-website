@@ -949,7 +949,12 @@ footer h1 {
     .popular-img {
         grid-template-columns: 1fr;
     }
-    
+    .nav-title h1 {
+        font-size: 25px;
+    }
+    .nav i {
+        font-size: 30px;
+    }
 
 
 
