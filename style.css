@@ -768,7 +768,7 @@ footer h1 {
     line-height: normal;
     transition: .3s;
 }
-.popular-btn:hover {
+.join-now:hover {
     background-color: #ee5b12;
     transform: scale(1.04);
 }
